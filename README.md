@@ -1,4 +1,7 @@
 # AWS Lambda 활용 
+
+![xaas](https://user-images.githubusercontent.com/10363214/103265139-3a0f6c00-49f0-11eb-8763-3d7db05ffb86.png)
+
 - Legacy :   
 기존 시스템은 인프라부터 소프트웨어까지 전부 구축하고 개발해야 합니다.  
 - Infrastructure-as-a-Service (IaaS):  
@@ -15,6 +18,7 @@
 -----
 
 ### Function 내부 구조
+![faas-architecture](https://user-images.githubusercontent.com/10363214/103265181-527f8680-49f0-11eb-8110-9e31683e5d59.jpg)  
 > `Event Source` -> `Function` -> `Service`  
 - Event Source: 함수가 실행될 조건이자 이벤트 소스 (HTTP 요청, 메시징, Cron 등)  
 - Function: 작업할 내용  
