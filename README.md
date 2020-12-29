@@ -80,7 +80,9 @@ exports.handler = async (event, context, callback) => {
 10. `모든 리소스` 라디오 버튼 클릭
 11. `정책 검토` 버튼
 12. `변경 내용을 저장합니다` 버튼  
+  
 또는(정책연결)  
+  
 1. https://console.aws.amazon.com/iam/home#/roles
 2. 역할 이름 목록에서 `<람다 함수명 링크>` 클릭 (권한 변경할 람다 함수 선택)
 3. `정책 연결` 버튼
