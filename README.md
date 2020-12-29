@@ -54,11 +54,13 @@ exports.handler = async (event, context, callback) => {
     // TODO implement
     const response = {
         statusCode: 200,
-        body: JSON.stringify(`${http.method}, ${http.path}`),
+        body: JSON.stringify(`HTTP method: ${http.method}, path: ${http.path}`),
     };
     return response;
 };
 ```
+
+-----
 
 ### DynamoDB 연동
 1. https://console.aws.amazon.com/dynamodb/home  
